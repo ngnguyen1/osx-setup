@@ -1,0 +1,10 @@
+export PY_39=$HOME/Library/Python/3.9
+export PG_14=/usr/local/opt/postgresql@14
+export CMAKE=/Applications/CMake.app/Contents
+export VSCODE="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export NVIM="$HOME/Tools/nvim"
+export GO_PATH="/usr/local/go/bin"
+export GSDK="$HOME/silabs/gsdk"
+
+# If you come from bash you might have to change your $PATH.
+export PATH=$PG_14/bin:$HOME/.bin:$PY_39/bin:$HOME/.ebcli-virtual-env/executables:$DOOM/bin:$CMAKE/bin:$HOME/.local/bin:$VSCODE:$NVIM/bin:$GO_PATH:$PATH
