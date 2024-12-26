@@ -8,3 +8,5 @@ export GSDK="$HOME/silabs/gsdk"
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$PG_14/bin:$HOME/.bin:$PY_39/bin:$HOME/.ebcli-virtual-env/executables:$DOOM/bin:$CMAKE/bin:$HOME/.local/bin:$VSCODE:$NVIM/bin:$GO_PATH:$PATH
+
+alias gcob='git branch | grep -v "^\*" |fzf --info=inline | xargs git checkout'
